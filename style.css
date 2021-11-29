@@ -85,72 +85,49 @@
 	font-weight: 400;
  }
  body{
-	 padding: 30px;
+	margin: 40px 0 10px 50px;
+	line-height: 30px;
  }
  .block{}
- .block{
-	 font-size: 24px;
-	 color: black;
-	 margin: 0 0 20px  0;
+ .list{
+	font-size: 24px;
+	color: #000;
  }
- .block p{
-	 padding: 0 0 15px 0;
+ .list li:nth-child(1){
+	text-decoration: line-through;
  }
- .block p:nth-child(odd){
-	background-color: yellow;
- }
- .block p:nth-child(even){
-	 background-color: tomato;
- }
- .link{
-	color: red;
- }
- .link:hover{
-	 color: green;
-	 text-decoration: underline;
- }
- 
- .textInput{
-	border: 1px solid #666;
-	padding: 0 15px;
-	height: 30px;
-	width: 300px;
-	margin:  0 0 10px 0 ;
- }
- .textInput:focus{
-	 box-shadow: 2px 2px 2px #000;
- }
- .textInput:focus{
-	color: brown;
- }
- .textButton{
-	height: 30px;
-	width: 300px;
-	display: block;
-	font-size: 15px;
-	text-transform: uppercase;
-	margin: 0 0 30px 0;
- }
- .textButton:active{
-	 font-size: 14px;
-	 color: red;
- }
-
- .list{}
- .list li{
-	 margin: 0 0 15px 0;
-	 color: blue;
- }
- .list li:nth-child(1):active{
-	 color:saddlebrown;
-	 font-size: 24px;
- }
- .list li:nth-child(4):active{
-	 color: aqua;
-	 font-size: 20px;
+ .list li:nth-child(1):hover{
+	text-decoration: none;
  }
  .list li:nth-child(2){
-	 color: aquamarine;
-	 font-size: 30px;
+	 font-weight: 700;
  }
-
+ .list li:nth-child(2):hover{
+	font-weight: 0;
+	color: red;
+}
+.list li:nth-child(3){
+	font-style: italic;
+}
+.list li:nth-child(3):hover{
+	font-style:normal;
+}
+.list li:nth-child(4){
+	text-transform: uppercase;
+}
+.list li:nth-child(4):hover{
+	text-transform: none;
+}
+.blockButton{
+	padding: 15px 0 0 0;
+}
+.buttonClass{
+	width: 100px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: green;
+}
+.buttonClass:hover{
+	background-color: greenyellow;
+}
+.formButton{}
