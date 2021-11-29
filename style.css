@@ -1,0 +1,156 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+ 
+ 
+ :focus,
+ :active {
+	outline: none;
+ }
+ a:focus,
+ a:active {
+	outline: none;
+ }
+ 
+ 
+ nav,
+ footer,
+ header,
+ aside {
+	display: block;
+ }
+ 
+ 
+ html,
+ body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+ }
+ 
+ 
+ input,
+ button,
+ textarea {
+	font-family: inherit;
+ }
+ 
+ 
+ input::-ms-clear {
+	display: none;
+ }
+ button {
+	cursor: pointer;
+ }
+ button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+ }
+ a,
+ a:visited {
+	text-decoration: none;
+ }
+ a:hover {
+	text-decoration: none;
+ }
+ ul li {
+	list-style: none;
+ }
+ img {
+	vertical-align: top;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+	font-size: inherit;
+	font-weight: 400;
+ }
+ body{
+	 padding: 30px;
+ }
+ .block{}
+ .block{
+	 font-size: 24px;
+	 color: black;
+	 margin: 0 0 20px  0;
+ }
+ .block p{
+	 padding: 0 0 15px 0;
+ }
+ .block p:nth-child(odd){
+	background-color: yellow;
+ }
+ .block p:nth-child(even){
+	 background-color: tomato;
+ }
+ .link{
+	color: red;
+ }
+ .link:hover{
+	 color: green;
+	 text-decoration: underline;
+ }
+ 
+ .textInput{
+	border: 1px solid #666;
+	padding: 0 15px;
+	height: 30px;
+	width: 300px;
+	margin:  0 0 10px 0 ;
+ }
+ .textInput:focus{
+	 box-shadow: 2px 2px 2px #000;
+ }
+ .textInput:focus{
+	color: brown;
+ }
+ .textButton{
+	height: 30px;
+	width: 300px;
+	display: block;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 0 0 30px 0;
+ }
+ .textButton:active{
+	 font-size: 14px;
+	 color: red;
+ }
+
+ .list{}
+ .list li{
+	 margin: 0 0 15px 0;
+	 color: blue;
+ }
+ .list li:nth-child(1):active{
+	 color:saddlebrown;
+	 font-size: 24px;
+ }
+ .list li:nth-child(4):active{
+	 color: aqua;
+	 font-size: 20px;
+ }
+ .list li:nth-child(2){
+	 color: aquamarine;
+	 font-size: 30px;
+ }
+
